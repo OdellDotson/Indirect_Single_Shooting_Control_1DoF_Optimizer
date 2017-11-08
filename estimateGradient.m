@@ -1,6 +1,5 @@
 function gf = estimateGradient(f,x)
-	
-	epsilon = 10^(-3);
+	epsilon = 10^(-3); % small epsilon as step for gradient estimation
 	gf = zeros(numel(f(x)),numel(x));
 
 	for i = 1:numel(x)
