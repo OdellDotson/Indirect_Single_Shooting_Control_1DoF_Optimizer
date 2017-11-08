@@ -5,9 +5,13 @@ An indirect multiple shooting controls simulation for a 1-DoF arm starting at -9
 
 >$octave
 
+
 >$pkg install -forge struct
+
 >$pkg install -forge optim
+
 >exit
+
 
 >octave OneDof_ISS.m
 
