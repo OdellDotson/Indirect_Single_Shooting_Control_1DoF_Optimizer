@@ -12,7 +12,7 @@ b = 1;
 f = @(x,u,t) [x(2) ; (g/l)*sin(x(1)) - (b/(m*l*l))*x(2) + ((1/(m*l*l))*u)];
 x_0 = [pi/2;0];
 
-T = 10;
+T = 12;
 N = 80;
 
 numControlInput = 1;
